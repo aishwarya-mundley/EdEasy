@@ -1,0 +1,10 @@
+.dashboard {
+  display: flex;
+}
+
+@media screen and (min-width: 997px) {
+  .dashboard {
+    width: 80%;
+    margin: auto;
+  }
+}

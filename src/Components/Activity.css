@@ -1,0 +1,29 @@
+.act {
+  /* flex: auto; */
+  border-right: 1px solid var(--twitter-background);
+  min-width: fit-content;
+  overflow-y: scroll;
+}
+/* Hide scrollbar for Chrome, Safari and Opera */
+.act::-webkit-scrollbar {
+  display: none;
+}
+/* Hide Scrollbar for IR,Edge and Firefox */
+.act {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.act__header {
+  position: sticky;
+  top: 0;
+  background: white;
+  z-index: 100;
+  border: 1px solid var(--twitter-background);
+  padding: 15px 20px;
+}
+
+.act__header > h2 {
+  font-size: 20px;
+  font-weight: 800;
+}

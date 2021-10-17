@@ -1,0 +1,16 @@
+.profile-center {
+  display: flex;
+  align-items: center;
+  text-transform: capitalize;
+  padding: 2rem 2rem 3rem 2rem;
+  background: var(--main-color);
+  color: white;
+}
+
+.profile-img {
+  margin-right: 1rem;
+}
+.profile-info p {
+  color: #b8b6b6;
+  font-size: 0.9rem;
+}
